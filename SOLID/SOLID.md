@@ -37,6 +37,68 @@ Sua classe não deve ter mais de uma responsabilidade
 
 - Exemplo em PHP
 ```php
+/** Exemplo que não segue o princípio */
+<?php
+
+class Report
+{
+    public function getTitle()
+    {
+        return 'Report Title';
+    }
+
+    public function getDate()
+    {
+        return '2018-01-22';
+    }
+
+    public function getContents()
+    {
+        return [
+            'title' => $this->getTitle(),
+            'date' => $this->getDate(),
+        ];
+    }
+
+    public function formatJson()
+    {
+        return json_encode($this->getContents());
+    }
+}
+```
+
+```php
+/** Exemplo que segue o princípio */
+<?php
+
+class Report
+{
+    public function getTitle()
+    {
+        return 'Report Title';
+    }
+
+    public function getDate()
+    {
+        return '2018-01-22';
+    }
+
+    public function getContents()
+    {
+        return [
+            'title' => $this->getTitle(),
+            'date' => $this->getDate(),
+        ];
+    }
+}
+
+class JsonReportFormatter
+{
+    public function format(Report $report)
+    {
+        return json_encode($report->getContents());
+    }
+}
 
 ```
 
