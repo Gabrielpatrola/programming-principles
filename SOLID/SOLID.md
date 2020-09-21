@@ -23,10 +23,24 @@ SOLID é um acrônimo de 5 princípios da programação orientada a objetos, sã
 ## 💯 Definições
 
 ### Single Responsability Principle (Princípio da responsabilidade única)
+<figure>
+<img src="https://raw.githubusercontent.com/gabrielpatrola/programming-principles/master/SOLID/assets/first.jpeg" alt="First principle" width="500"/>
+<figcaption>Se a sua classe tem mais de uma responsabilidade, ela não está seguindo o primeiro princípio.</figcaption>
+</figure>
+
+Esse princípio tem a seguinte definição formal:
+
+> Uma classe deve ter uma e apenas uma razão para mudança, significando que uma classe deve ter apenas uma responsabilidade.
+
+
 
 ### Open/Closed Principle (Princípio aberto/fechado)
 
+> Objetos ou entidades devem ser abertas para extensão, mas fechadas para modificação.
+
 ### Liskov Substitution Principle (Princípio da substituição de Liskov)
+
+> Uma classe derivada deve ser substituída por sua classe base.
 
 ### Interface Segregation Principle (Princípio da segregação da interface)
 
@@ -40,12 +54,22 @@ Toda ajuda é bem vinda, caso veja algum erro, não hesite em contribuir com o p
 
 ## 📚 Bibliografia e referências
 
-Referências em português:
+Conteúdos em português:
 
+Artigos:
 - [SOLID com PHP](https://imasters.com.br/back-end/solid-com-php)
 - [Princípios SOLID de design para JavaScript](https://www.infoq.com/br/news/2014/02/solid-principios-javascript/)
 - [O que é SOLID: O guia completo para você entender os 5 princípios da POO](https://medium.com/desenvolvendo-com-paixao/o-que-é-solid-o-guia-completo-para-você-entender-os-5-princípios-da-poo-2b937b3fc530)
 
-Referências em inglês:
+Vídeos:
+- [Princípios SOLID em uma API REST com Node.js e TypeScript](https://www.youtube.com/watch?v=vAV4Vy4jfkc)
+- [SOLID (O básico para você programar melhor)](https://www.youtube.com/watch?v=mkx0CdWiPRA)
+- [SOLID fica FÁCIL com Essas Ilustrações](https://www.youtube.com/watch?v=6SfrO3D4dHM)
+
+Conteúdos em inglês:
+
+Artigos:
+- [The Principles of OOD](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)
 - [SOLID Principles In PHP](https://www.hashbangcode.com/article/solid-principles-php)
+- [The S.O.L.I.D Principles in Pictures](https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898)
 - [S.O.L.I.D The first 5 principles of Object Oriented Design with JavaScript](https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa)
