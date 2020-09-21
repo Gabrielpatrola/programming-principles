@@ -1,4 +1,4 @@
-## <img src="https://raw.githubusercontent.com/gabrielpatrola/programming-principles/master/SOLID/assets/solid.jpeg" alt="Solid" width="500"/><br>
+## <div style="text-align:center"><img src="https://raw.githubusercontent.com/Gabrielpatrola/programming-principles/master/SOLID/assets/solid.jpeg" alt="Solid" width="500"/><br></div>
 
 <h3 align="center">
   <a href="#-o-que-e">O que é</a>
@@ -14,18 +14,19 @@
 
 SOLID é um acrônimo de 5 princípios da programação orientada a objetos, são eles:
 
-- **(S)**ingle Responsability Principle (Princípio da responsabilidade única)
-- **(O)**pen/Closed Principle (Princípio aberto/fechado)
-- **(L)**iskov Substitution Principle (Princípio da substituição de Liskov)
-- **(I)**nterface Segregation Principle (Princípio da segregação da interface)
-- **(D)**ependency Inversion Principle (Princípio da inversão da dependência)
+- **S**ingle Responsability Principle (Princípio da responsabilidade única)
+- **O**pen/Closed Principle (Princípio aberto/fechado)
+- **L**iskov Substitution Principle (Princípio da substituição de Liskov)
+- **I**nterface Segregation Principle (Princípio da segregação da interface)
+- **D**ependency Inversion Principle (Princípio da inversão da dependência)
 
 ## 💯 Definições
 
 ### Single Responsability Principle (Princípio da responsabilidade única)
 <figure>
-<img src="https://raw.githubusercontent.com/gabrielpatrola/programming-principles/master/SOLID/assets/first.jpeg" alt="First principle" width="500"/>
-<figcaption>Se a sua classe tem mais de uma responsabilidade, ela não está seguindo o primeiro princípio.</figcaption>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/Gabrielpatrola/programming-principles/master/SOLID/assets/first.jpg" alt="First principle" width="500"/>
+<figcaption>Sua classe não deve ter mais de uma responsabilidade</figcaption>
+</div>
 </figure>
 
 > Uma classe deve ter uma e apenas uma razão para mudança, significando que uma classe deve ter apenas uma responsabilidade.
