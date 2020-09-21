@@ -32,11 +32,11 @@ Repositório feito para servir como uma base de conhecimento sobre principios de
 ## 📝 Conteúdos
 
 Lista de conteúdos:
-- Sem nada até o momento 😕
+- [SOLID](/SOLID/SOLID.md)
 
 ## ❗ To Do
 
-- [ ] SOLID
+- [x] SOLID
 - [ ] DRY
 - [ ] KISS
 - [ ] YAGNI
