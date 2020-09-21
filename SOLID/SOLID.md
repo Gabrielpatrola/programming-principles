@@ -1,4 +1,6 @@
-## <div style="text-align:center"><img src="https://raw.githubusercontent.com/Gabrielpatrola/programming-principles/master/SOLID/assets/solid.jpeg" alt="Solid" width="500"/><br></div>
+<h1 align="center">
+<img src="https://raw.githubusercontent.com/Gabrielpatrola/programming-principles/master/SOLID/assets/solid.jpeg" alt="Solid" width="500"/>
+</h1>
 
 <h3 align="center">
   <a href="#-o-que-e">O que é</a>
@@ -24,7 +26,8 @@ SOLID é um acrônimo de 5 princípios da programação orientada a objetos, sã
 
 ### Single Responsability Principle (Princípio da responsabilidade única)
 <figure>
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/Gabrielpatrola/programming-principles/master/SOLID/assets/first.jpg" alt="First principle" width="500"/>
+<div align="center">
+<img src="https://raw.githubusercontent.com/Gabrielpatrola/programming-principles/master/SOLID/assets/first.jpg" alt="First principle" width="500"/>
 <figcaption>Sua classe não deve ter mais de uma responsabilidade</figcaption>
 </div>
 </figure>
