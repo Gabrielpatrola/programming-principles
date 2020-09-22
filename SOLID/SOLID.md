@@ -24,7 +24,7 @@ SOLID é um acrônimo de 5 princípios da programação orientada a objetos, sã
 
 ## 💯 Definições
 
-### Single Responsability Principle (Princípio da responsabilidade única)
+### 1️⃣ Single Responsability Principle (Princípio da responsabilidade única)
 <p align="center">
 <img src="https://raw.githubusercontent.com/Gabrielpatrola/programming-principles/master/SOLID/assets/first.jpg" alt="First principle" width="500"/><br>
 Sua classe não deve ter mais de uma responsabilidade
@@ -83,7 +83,7 @@ class UserRegistration
 - Objetivo:
 Este princípio visa separar comportamentos para que, se surgirem bugs como resultado de sua mudança, isso não afete outros comportamentos não relacionados.
 
-### Open/Closed Principle (Princípio aberto/fechado)
+### 🔓🔒 Open/Closed Principle (Princípio aberto/fechado)
 
 > Objetos ou entidades devem ser abertas para extensão, mas fechadas para modificação.
 
@@ -149,7 +149,7 @@ New RubberDuck(new Swimming, new Squeaking, new Flying);
 - Objetivo:
 Este princípio visa estender o comportamento de uma classe sem alterar o comportamento existente dessa classe. Isso evita causar bugs onde quer que a classe esteja sendo usada.
 
-### Liskov Substitution Principle (Princípio da substituição de Liskov)
+### 👩‍💻 Liskov Substitution Principle (Princípio da substituição de Liskov)
 
 > Uma classe derivada deve ser substituída por sua classe base.
 
@@ -242,7 +242,7 @@ class Square extends AbstractShape
 - Objetivo:
 Este princípio visa reforçar a consistência para que a classe pai ou sua classe filha possam ser usadas da mesma maneira sem erros.
 
-### Interface Segregation Principle (Princípio da segregação da interface)
+### 🛑 Interface Segregation Principle (Princípio da segregação da interface)
 
 > Os clientes não devem ser forçados a depender de métodos que não usam.
 
@@ -311,7 +311,7 @@ class Ostrich implements Bird, RunningBird
 - Objetivo:
 Este princípio visa dividir um conjunto de ações em conjuntos menores, de forma que uma Classe execute SOMENTE o conjunto de ações de que necessita.
 
-### Dependency Inversion Principle (Princípio da inversão da dependência)
+### 🔄 Dependency Inversion Principle (Princípio da inversão da dependência)
 
 > Uma classe não deve ser misturada com a ferramenta que usa para executar uma ação. Em vez disso, deve ser implementada na interface que permitirá que a ferramenta se conecte à classe
 
