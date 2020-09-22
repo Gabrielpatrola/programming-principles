@@ -74,11 +74,11 @@ class UserRegistration
 
 ```
 
-- Exemplo em JS
+<!-- - Exemplo em JS
 
 ```js
 
-```
+``` -->
 
 - Objetivo:
 Este princípio visa separar comportamentos para que, se surgirem bugs como resultado de sua mudança, isso não afete outros comportamentos não relacionados.
@@ -140,11 +140,11 @@ class Squeaking implements Quacking ()
 New RubberDuck(new Swimming, new Squeaking, new Flying);
 ```
 
-- Exemplo em JS
+<!-- - Exemplo em JS
 
 ```js
 
-```
+``` -->
 
 - Objetivo:
 Este princípio visa estender o comportamento de uma classe sem alterar o comportamento existente dessa classe. Isso evita causar bugs onde quer que a classe esteja sendo usada.
@@ -173,6 +173,7 @@ class Rectangle
         $this->width = $width;
     }
 }
+
 class Square extends Rectangle
 {
     public function setHeight(int $height)
@@ -187,7 +188,9 @@ class Square extends Rectangle
         $this->width = $width;
     }
 }
+```
 
+```php
 /** Exemplo que segue o princípio*/
 <?php
 
@@ -233,11 +236,11 @@ class Square extends AbstractShape
 }
 ```
 
-- Exemplo em JS
+<!-- - Exemplo em JS
 
 ```js
 
-```
+``` -->
 
 - Objetivo:
 Este princípio visa reforçar a consistência para que a classe pai ou sua classe filha possam ser usadas da mesma maneira sem erros.
@@ -270,7 +273,9 @@ class Ostrich implements Bird
     public function eat() { ... }
     public function fly() { /* exception */ }
 }
+```
 
+```php
 /** Exemplo que segue o princípio */
 
 <?php
@@ -303,11 +308,11 @@ class Ostrich implements Bird, RunningBird
 }
 ```
 
-- Exemplo em JS
+<!-- - Exemplo em JS
 
 ```js
 
-```
+``` -->
 - Objetivo:
 Este princípio visa dividir um conjunto de ações em conjuntos menores, de forma que uma Classe execute SOMENTE o conjunto de ações de que necessita.
 
@@ -333,8 +338,10 @@ class PasswordReminder
     
     // Faz alguma coisa
 }
+```
 
-/** */
+```php
+/** Exemplo que segue o princípio*/
 <?php
 
 interface DBConnectionInterface
@@ -372,11 +379,11 @@ class PasswordReminder
 
 ```
 
-- Exemplo em JS
+<!-- - Exemplo em JS
 
 ```js
 
-```
+``` -->
 
 - Objetivo:
 Este princípio visa reduzir a dependência de uma classe de alto nível na classe de baixo nível, introduzindo uma interface.
