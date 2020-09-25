@@ -153,6 +153,10 @@ Este princípio visa estender o comportamento de uma classe sem alterar o compor
 
 > Uma classe derivada deve ser substituída por sua classe base.
 
+Este princípio tem este nome porque foi introduzido por Barbara Liskov em sua apresentação "Data Abstraction" em 1987. Alguns anos mais tarde, ela publicou um artigo, junto com Jeanette Wing, onde elas definiram o princípio como
+
+> Seja Φ(x) uma provável propriedade sobre objetos x do tipo T. Então Φ(y) deve ser verdadeira para objetos y do tipo S, em que S é um subtipo de T.
+
 - Exemplo em PHP
 ```php
 /** Exemplo que não segue o princípio*/
