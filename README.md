@@ -33,11 +33,12 @@ Repositório feito para servir como uma base de conhecimento sobre principios de
 
 Lista de conteúdos:
 - [SOLID](/SOLID/SOLID.md)
+- [DRY](/DRY/DRY.md)
 
 ## ❗ To Do
 
-- [x] SOLID
-- [ ] DRY
+- [X] SOLID
+- [X] DRY
 - [ ] KISS
 - [ ] YAGNI
 - [ ] Tradução EN
