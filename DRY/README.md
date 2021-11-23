@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://raw.githubusercontent.com/Gabrielpatrola/programming-principles/master/DRY/assets/dry.jpeg" alt="DRY" width="500"/>
+<img src="https://raw.githubusercontent.com/Gabrielpatrola/programming-principles/master/DRY/assets/dry-image.png" alt="DRY" width="500"/>
 </h1>
 
 <h3 align="center">
