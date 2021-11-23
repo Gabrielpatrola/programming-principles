@@ -3,13 +3,13 @@
 </h1>
 
 <h3 align="center">
-  <a href="#-o-que-e">O que é</a>
+  <a href="#-o-que-é">O que é</a>
   <span> · </span>
-  <a href="#-definicoes">Definições</a>
+  <a href="#%EF%B8%8F-definições">Definições</a>
   <span> · </span>
   <a href="#-como-contribuir">Como contribuir</a>
   <span> · </span>
-  <a href="#-bibliografia-e-referencias">Bibliografia e referências</a>
+  <a href="#-bibliografia-e-referências">Bibliografia e referências</a>
 </h3>
 
 ## ⁉ O que é?
