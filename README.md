@@ -32,7 +32,7 @@ Repositório feito para servir como uma base de conhecimento sobre principios de
 ## 📝 Conteúdos
 
 Lista de conteúdos:
-- [SOLID](/SOLID/SOLID.md)
+- [SOLID](/SOLID)
 - [DRY](/DRY)
 
 ## ❗ To Do
