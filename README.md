@@ -33,7 +33,7 @@ Repositório feito para servir como uma base de conhecimento sobre principios de
 
 Lista de conteúdos:
 - [SOLID](/SOLID/SOLID.md)
-- [DRY](/DRY/DRY.md)
+- [DRY](/DRY)
 
 ## ❗ To Do
 
