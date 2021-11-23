@@ -22,7 +22,7 @@ SOLID é um acrônimo de 5 princípios da programação orientada a objetos, sã
 - **I**nterface Segregation Principle (Princípio da segregação da interface)
 - **D**ependency Inversion Principle (Princípio da inversão da dependência)
 
-## 💯 Definições
+## ✍️ Definições
 
 ### 1️⃣ Single Responsability Principle (Princípio da responsabilidade única)
 <p align="center">
