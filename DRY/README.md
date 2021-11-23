@@ -40,13 +40,10 @@ function login (email, password) {
     const isEmailValid = validateEmail(email);
 
     if(isEmailValid){
-        try {
-            /** Lógica para fazer login */
-        }catch(error){
-            /** Lógica para erro no login */
-        }
+        /** Lógica caso o e-mail seja válido */
     }
 
+    /** Lógica caso o e-mail não seja válido*/
 }
 ```
 
@@ -59,14 +56,12 @@ const validateEmail = (email) => /\S+@\S+\.\S+/.test(email)
 function register (email, password) {
     const isEmailValid = validateEmail(email);
 
-    if(isEmailValid){
-        try {
-            /** Lógica para fazer registro */
-        }catch(error){
-            /** Lógica para erro no registro */
-        }
+     if(isEmailValid){
+        /** Lógica caso o e-mail seja válido */
     }
 
+    /** Lógica caso o e-mail não seja válido*/
+}
 ```
 
 Os códigos acima servem apenas para demonstrar como uma lógica pode acabar sendo refeita em partes diferentes dentro de uma aplicação. Gerando um retrabalho em uma modificação ou implementação de lógica nova.
@@ -93,14 +88,11 @@ import { validateEmail } from 'utils/formValidator'
 function login (email, password) {
     const isEmailValid = validateEmail(email);
 
-    if(isEmailValid){
-        try {
-            /** Lógica para fazer login */
-        }catch(error){
-            /** Lógica para erro no login */
-        }
+     if(isEmailValid){
+        /** Lógica caso o e-mail seja válido */
     }
 
+    /** Lógica caso o e-mail não seja válido*/
 }
 ```
 
@@ -112,14 +104,12 @@ import { validateEmail } from 'utils/formValidator'
 function register (email, password) {
     const isEmailValid = validateEmail(email);
 
-    if(isEmailValid){
-        try {
-            /** Lógica para fazer registro */
-        }catch(error){
-            /** Lógica para erro no registro */
-        }
+     if(isEmailValid) {
+        /** Lógica caso o e-mail seja válido */
     }
 
+    /** Lógica caso o e-mail não seja válido*/
+}
 ```
 
 Como pode ser visto acima, o método `validateEmail` foi utilizado em duas funções diferentes em arquivos distintos de um jeito bem simples, agora caso o método seja alterado, a lógica será replicada no login e no cadastro.
