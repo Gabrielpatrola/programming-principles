@@ -88,7 +88,7 @@ export const validateEmail = (email) => /\S+@\S+\.\S+/.test(email);
 
 ```js
 // auth/login.js
-import validateEmail from 'utils/formValidator'
+import { validateEmail } from 'utils/formValidator'
 
 function login (email, password) {
     const isEmailValid = validateEmail(email);
@@ -107,7 +107,7 @@ function login (email, password) {
 ```js
 // auth/register.js
 
-import validateEmail from 'utils/formValidator'
+import { validateEmail } from 'utils/formValidator'
 
 function register (email, password) {
     const isEmailValid = validateEmail(email);
